@@ -9,8 +9,10 @@ import {Recipe} from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     // tslint:disable-next-line:max-line-length
-    new Recipe('Test', 'to test how it works', 'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/caponata-pasta_1.jpg')
-    ];
+    new Recipe('Test 1', 'to test how it works', 'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/caponata-pasta_1.jpg'),
+    // tslint:disable-next-line:max-line-length
+    new Recipe('Test 2', 'to test how it works', 'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/caponata-pasta_1.jpg')
+  ];
   constructor() { }
 
   ngOnInit() {
