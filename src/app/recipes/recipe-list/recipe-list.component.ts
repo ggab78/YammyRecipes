@@ -10,7 +10,6 @@ import {RecipeService} from '../recipe.service';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[];
-  @Output() recipeItemEmitter = new EventEmitter<Recipe>();
 
   constructor(private recipeService: RecipeService) {
   }
